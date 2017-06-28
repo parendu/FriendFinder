@@ -11,7 +11,7 @@ var apiRoutes = require('./routing/apiRoutes');
 var htmlRoutes = require('./routing/htmlRoutes');
 
 
-//set up express
+//set up express server
 
 var app = express();
 var PORT = 3000;
@@ -26,13 +26,13 @@ var PORT = 3000;
 //static content
 app.use(express.static("./app/public"));
 
-//route
+//points server to router
 apiRoutes(app);
 htmlRoutes(app);
 
 
 
-//start listener
+//start the listener
 app.listen(PORT, function() {
 	console.log("Server is listening PORT: "+ PORT);
 });

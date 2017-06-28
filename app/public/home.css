@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+#gotosurvey {
+	margin-left: 200px;
+	
+
+}
+.jumbotron {
+
+    background-image: url("friends-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    height: 600px;
+    color: #0066cc;
+}
+
+
+
+.row {
+	margin-top: 175px;
+}
